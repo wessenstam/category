@@ -1,77 +1,38 @@
-.. title:: Introduction to Nutanix AHV
+.. title:: Introduction to Nutanix
 
 .. toctree::
   :maxdepth: 2
   :caption: Labs
   :name: _labs
-  :hidden:
+  :hidden: true
 
   examplelab1/examplelab1
   examplelab2/examplelab2
 
-.. toctree::
-  :maxdepth: 2
-  :caption: Optional Labs
-  :name: _optional_labs
-  :hidden:
-
-  examplelab3/examplelab3
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Appendix
-  :name: _appendix
-  :hidden:
-
-  appendix/glossary
-  appendix/otherstuff
-
-.. _getting_started:
+.. _catalog:
 
 ---------------
-Getting Started
+Catalog
 ---------------
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit odio, ultrices sed elementum vitae, dictum eget turpis. Etiam ultrices orci quis tempus tempus. Nulla non nibh imperdiet, suscipit risus quis, eleifend nisl. Morbi at posuere nibh, quis bibendum dui. Morbi dictum sem a ipsum bibendum condimentum. Suspendisse id ante gravida, efficitur leo a, consequat enim. Suspendisse tempor lorem vel purus scelerisque, vel facilisis lorem consequat. Pellentesque augue orci, iaculis vel mollis sit amet, scelerisque a tellus. Aliquam commodo in lectus feugiat porta.
+This page is here for the catalog of workshops that are available on Nutanix Workshops. This list is still being changed as the content and features are dynamical due to new and updated content gets pushed out.
 
-What's New
-++++++++++
+.. note:: Also as this catalog is created based on the available unofficial URLs, please be warned that sometimes we're going to change the URLs, so please **do not bookmark** the URLs of the workshops. You may bookmark **the URL of the catalog** as that is tried to be kept updated. Also on the official https://nutanix.handsonworkshops.com/workshops/ webpage.
 
-- Workshop updated for the following software versions:
-  - AOS 5.6
-  - AFS 3.0
-- Added :ref:`example_lab_3`
+Version control
++++++++++++++++
 
-Access Instructions
+- 04-10-2018: Willem Essenstam - Initial version
+
+Catalog
 +++++++++++++++++++
 
-The Nutanix Hosted POC environment can be accessed a number of different ways:
+=============================== ====================================
+Name of the workshop            URL
+=============================== ====================================
+The Nutanix CE AHV Workshop     https://nutanix.handsonworkshops.com/workshops/b25df92c-410c-4748-8048-62d6be68febd/start/
+Calm workshop for Partners      https://nutanix.handsonworkshops.com/workshops/ddc0a6ef-af40-4a66-827a-53645b39bdc1/start/
+Partner Technology Bootcamp     https://nutanix.handsonworkshops.com/workshops/85d3da14-bf0a-4a5e-a0ad-cfeb118da821/start/
+Foundation Workshop             https://nutanix.handsonworkshops.com/workshops/c26b44fc-1e8e-433c-b22b-c5e8ca99ecbb/start/
 
-Citrix XenDesktop
-.................
-
-https://citrixready.nutanix.com - *Accessible via the Citrix Receiver client or HTML5*
-
-**Nutanix Employees** - Use your NUTANIXDC credentials
-
-**Non-Employees** - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
-
-Employee Pulse Secure VPN
-..........................
-
-https://sslvpn.nutanix.com - Use your CORP credentials
-
-Non-Employee Pulse Secure VPN
-..............................
-
-https://lab-vpn.nutanix.com - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
-
-Under **Client Application Sessions**, click **Start** to the right of **Pulse Secure** to download the client.
-
-Install and open **Pulse Secure**.
-
-Add a connection:
-
-- **Type** - Policy Secure (UAC) or Connection Server
-- **Name** - HPOC VPN
-- **Server URL** - lab-vpn.nutanix.com
+=============================== ====================================
