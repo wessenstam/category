@@ -4,7 +4,7 @@
   :maxdepth: 2
   :caption: Labs
   :name: _labs
-  :hidden: true
+  :hidden:
 
   examplelab1/examplelab1
   examplelab2/examplelab2
